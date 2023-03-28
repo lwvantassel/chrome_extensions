@@ -1,0 +1,14 @@
+{
+  // Required
+  "manifest_version": 3,
+  "name": "Reddit Promoted Post Remover",
+  "version": "1.0.0",
+  "description": "Hides promoted posts",
+  "content_scripts": [
+  	{
+	  "matches": ["https://*.reddit.com/*"],
+	  "js": ["contentScript.js"]
+
+  	}
+  ]
+}
